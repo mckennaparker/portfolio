@@ -5,7 +5,26 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', serif;
     color: #eeeded;
     background-color: #333333;
+}
+
+header {
+    text-align: center;
+    background-color: #1a1331;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+section {
+    height: auto;
+    border: #1a1331 3px solid;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 90%;
 }
