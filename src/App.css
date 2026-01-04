@@ -1,42 +1,68 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  margin-top: 100px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portfolio-title {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
-.card {
-  padding: 2em;
+.portfolio-ordering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.portfolio-sorting, .portfolio-filtering {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.portfolio-sorting {
+  margin-top: 10px;
+}
+
+.portfolio-filtering {
+  margin-bottom: 10px;
+}
+
+.sort-label, .filter-label {
+  margin: 5px;
+  font-weight: bold;
+  color: var(--strawberry-red)
+}
+
+.sort-btn, .filter-btn {
+  background-color: var(--platinum);
+  color: var(--space-indigo);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sort-btn:hover, .filter-btn:hover {
+  background-color: var(--strawberry-red);
+  color: var(--platinum);
 }

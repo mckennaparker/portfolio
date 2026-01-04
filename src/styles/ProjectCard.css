@@ -1,0 +1,13 @@
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.project-card {
+    background-color: var(--platinum);
+    color: var(--space-indigo);
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}

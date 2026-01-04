@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: var(--lavender-grey);
+    color: var(--space-indigo);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: var(--space-indigo);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: var(--flag-red);
+}
