@@ -1,0 +1,27 @@
+.project-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-site .project-title {
+    width: 50%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.project-site .project-image {
+    width: 65%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-site .project-description {
+    font-size: 1rem;
+    line-height: 1.5;
+}

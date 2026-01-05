@@ -1,13 +1,42 @@
-.project-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-}
-
 .project-card {
     background-color: var(--platinum);
     color: var(--space-indigo);
     width: 300px;
     border-radius: 10px;
     padding: 10px;
+}
+
+.project-card .project-title {
+    width: 100%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.project-card .project-image {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .project-description {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+}
+
+.project-card .project-btn {
+    background-color: var(--space-indigo);
+    color: var(--platinum);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.project-card .project-btn:hover {
+    background-color: var(--strawberry-red);
+    color: var(--platinum);
 }
